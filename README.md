@@ -37,6 +37,5 @@ cat /usr/share/logstash/pipeline/logstash.conf
 
 Nous allons démarrer un conteneur Nginx supplémentaire à l'aide de la CLI Docker.
 
-```
-docker run -d -p 8080: 80 --log-driver gelf --log-opt gelf-address = udp: // localhost: 12201 nginx: dernier
+``docker run -d -p 8080:80 --log-driver gelf --log-opt gelf-address=udp://localhost:12201 nginx:latest
 ```
