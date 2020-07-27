@@ -18,18 +18,10 @@ Docker-Compose
 Démarrez les conteneurs à l'aide de Docker-compose.
 
 ```
-git clone https://github.com/mbiombani/D-ployer-la-pile-ELK-dans-Docker-pour-surveiller-les-conteneurs.git
-cd D-ployer-la-pile-ELK-dans-Docker-pour-surveiller-les-conteneurs
+git clone https://github.com/mbiombani/ELK.git
+cd ELK
 docker-compose up -d
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
